@@ -1,0 +1,168 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="page.master.cs" Inherits="EL_bookstore.page" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style2 {
+            width: 165px;
+            height: 107px;
+        }
+        .auto-style3 {
+            width: 227px;
+            height: 31px;
+            text-align: center;
+            color: #CC3300;
+            margin-left: 82px;
+            background-color: #FFFFCC;
+            margin-top: 0px;
+            font-weight: 700;
+            font-size: xx-large;
+        }
+        .auto-style4 {
+            width: 143px;
+            height: 100px;
+        }
+        .auto-style6 {
+            width: 143px;
+            background-color: #FFCC99;
+        }
+        .auto-style8 {
+            background-color: #FFFFCC;
+        }
+        .auto-style9 {
+            width: 143px;
+            height: 1575px;
+            background-color: #FFFFCC;
+        }
+        .auto-style15 {
+            width: 897px;
+            background-color: #FFFFCC;
+            height: 54px;
+        }
+        .auto-style16 {
+            width: 897px;
+            height: 100px;
+        }
+        .auto-style17 {
+            width: 897px;
+            height: 1575px;
+            background-color: #FFFFCC;
+        }
+        .auto-style19 {
+            background-color: #FFFFCC;
+            width: 100%;
+        }
+        .auto-style20 {
+            background-color: #FFFFCC;
+            height: 138px;
+        }
+        .auto-style21 {
+            width: 897px;
+            background-color: #FFFFCC;
+            height: 138px;
+        }
+        .auto-style22 {
+            background-color: #FFFFCC;
+            height: 54px;
+        }
+        .auto-style23 {
+            background-color: #FFFFCC;
+            height: 54px;
+            width: 160px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server" >
+    <div class="auto-style8">
+    </div>
+        <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" />
+        <table class="auto-style19">
+            <tr>
+                <td class="auto-style6" rowspan="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp; </td>
+                <td class="auto-style20" colspan="3">
+        <img alt="booksimg" aria-multiline="False" aria-orientation="horizontal" aria-pressed="undefined" class="auto-style2" src="img/images.jpg" style="list-style-position: inside" /></td>
+                <td class="auto-style21">
+                    <dl>
+                        <dd>
+    <p aria-orientation="horizontal" class="auto-style3" aria-atomic="False">
+                ЕЛЕКТРОННА КНИЖАРНИЦА<asp:ImageButton ID="imgbtnEn" runat="server" Height="17px" ImageUrl="~/BookPictures/usa.png" OnClick="imgbtnEn_Click" Width="18px" meta:resourcekey="imgbtnEnResource1" />
+                    <asp:ImageButton ID="imgbtnBg" runat="server" Height="16px" ImageUrl="~/BookPictures/bg.jpg" OnClick="imgbtnBg_Click" Width="19px" meta:resourcekey="imgbtnBgResource1" />
+                            </p>
+
+                        </dd>
+                    </dl>
+                </td>
+                <td class="auto-style6" rowspan="5">
+                    &nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style22">
+                    </td>
+                <td class="auto-style22">
+                    </td>
+                <td class="auto-style23">
+                    <asp:AdRotator ID="AdRotator1" runat="server" DataSourceID="XmlDataSource1" />
+                    <asp:XmlDataSource ID="XmlDataSource1" runat="server" DataFile="~/XMLDataSource.xml"></asp:XmlDataSource>
+                    </td>
+                <td class="auto-style15">
+        <asp:Menu ID="Menu1" runat="server" BackColor="#FFFFCC" DataSourceID="SiteMapDataSource1" DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="0.8em" ForeColor="#990000" meta:resourcekey="Menu1Resource1" Orientation="Horizontal" StaticSubMenuIndent="10px" BorderStyle="Inset" style="font-weight: 700; text-align: center" BorderColor="#FF9999">
+            <DynamicHoverStyle BackColor="#990000" ForeColor="White" />
+            <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+            <DynamicMenuStyle BackColor="#FFFBD6" />
+            <DynamicSelectedStyle BackColor="#FFCC66" />
+            <StaticHoverStyle BackColor="#990000" ForeColor="White" />
+            <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+            <StaticSelectedStyle BackColor="#FFCC66" />
+        </asp:Menu>
+                    <marquee direction="left">
+<asp:Label ID="Label1" runat="server" Text="ЕЛЕКТРОННА КНИЖАРНИЦА">
+
+</asp:Label>
+</marquee>
+                    
+&nbsp;&nbsp;&nbsp;&nbsp;
+                    </td>
+            </tr>
+            
+            <tr>
+                <td class="auto-style4" colspan="3">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" >
+        </asp:ContentPlaceHolder> 
+                </td>
+                <td class="auto-style16">
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+            
+        </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            
+            <tr>
+                <td class="auto-style4" colspan="3">
+                    &nbsp;</td>
+                <td class="auto-style16">
+
+                    &nbsp;</td>
+            </tr>
+            
+            <tr>
+                <td class="auto-style9" colspan="3">
+                </td>
+                <td class="auto-style17">
+                    &nbsp;</td>
+            </tr>
+            
+        </table>
+    </form>
+    
+         
+</body>
+</html>
