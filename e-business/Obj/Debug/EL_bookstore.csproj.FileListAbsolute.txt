@@ -1,0 +1,18 @@
+C:\Users\Vesko\Desktop\8 semestrur\EL_bookstore\EL_bookstore\bin\EL_bookstore.dll
+C:\Users\Vesko\Desktop\8 semestrur\EL_bookstore\EL_bookstore\bin\EL_bookstore.pdb
+C:\Users\Vesko\Desktop\8 semestrur\EL_bookstore\EL_bookstore\obj\Debug\EL_bookstore.csprojResolveAssemblyReference.cache
+C:\Users\Vesko\Desktop\8 semestrur\EL_bookstore\EL_bookstore\obj\Debug\EL_bookstore.dll
+C:\Users\Vesko\Desktop\8 semestrur\EL_bookstore\EL_bookstore\obj\Debug\EL_bookstore.pdb
+C:\Users\Vesko\Desktop\8 semestrur\EL_bookstore\EL_bookstore\bin\EL_bookstore.dll.config
+D:\unss\8s\E-Бизнес\упр1\EL_bookstore\EL_bookstore\bin\EL_bookstore.dll.config
+D:\unss\8s\E-Бизнес\упр1\EL_bookstore\EL_bookstore\bin\EL_bookstore.dll
+D:\unss\8s\E-Бизнес\упр1\EL_bookstore\EL_bookstore\bin\EL_bookstore.pdb
+D:\unss\8s\E-Бизнес\упр1\EL_bookstore\EL_bookstore\obj\Debug\EL_bookstore.csprojResolveAssemblyReference.cache
+D:\unss\8s\E-Бизнес\упр1\EL_bookstore\EL_bookstore\obj\Debug\EL_bookstore.dll
+D:\unss\8s\E-Бизнес\упр1\EL_bookstore\EL_bookstore\obj\Debug\EL_bookstore.pdb
+D:\unss\8s\E-Бизнес\упр2\EL_bookstore\EL_bookstore\bin\EL_bookstore.dll.config
+D:\unss\8s\E-Бизнес\упр2\EL_bookstore\EL_bookstore\bin\EL_bookstore.dll
+D:\unss\8s\E-Бизнес\упр2\EL_bookstore\EL_bookstore\bin\EL_bookstore.pdb
+D:\unss\8s\E-Бизнес\упр2\EL_bookstore\EL_bookstore\obj\Debug\EL_bookstore.csprojResolveAssemblyReference.cache
+D:\unss\8s\E-Бизнес\упр2\EL_bookstore\EL_bookstore\obj\Debug\EL_bookstore.dll
+D:\unss\8s\E-Бизнес\упр2\EL_bookstore\EL_bookstore\obj\Debug\EL_bookstore.pdb
